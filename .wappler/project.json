@@ -1,0 +1,51 @@
+{
+  "projectName": "bananshake",
+  "styleFile": "/css/style.css",
+  "assetsFolder": "/assets",
+  "designFramework": "bootstrap4",
+  "frameworks": [
+    {
+      "name": "jquery_slim_33",
+      "type": "cdn"
+    },
+    {
+      "name": "fontawesome_4",
+      "type": "cdn"
+    },
+    {
+      "name": "bootstrap4",
+      "type": "local"
+    },
+    {
+      "name": "appConnect",
+      "type": "local"
+    }
+  ],
+  "hostingType": "heroku",
+  "projectServerModel": "node",
+  "herokuProjectID": "bananasake",
+  "firebaseProjectID": "",
+  "gitURL": "",
+  "webRootFolder": "/public",
+  "useRouting": true,
+  "addBase": true,
+  "routingHandler": "node",
+  "targets": [
+    {
+      "name": "Development",
+      "remoteURL": "http://localhost:3000/",
+      "access": "local",
+      "localFolder": "file:///C:/Users/User/bananashake",
+      "targetType": "heroku"
+    },
+    {
+      "targetType": "heroku",
+      "name": "Production",
+      "usage": "production",
+      "herokuProjectID": "bananasake",
+      "remoteURL": "https://bananasake.herokuapp.com/"
+    }
+  ],
+  "activeTarget": "Development",
+  "projectType": "web"
+}
